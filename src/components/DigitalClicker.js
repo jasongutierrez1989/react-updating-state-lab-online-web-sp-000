@@ -20,7 +20,7 @@ class DigitalClicker extends Component {
       <button onClick={this.handleClick}>{this.state.timesClicked}</button>
     )
   }
-  
+
 }
 
 export default DigitalClicker
