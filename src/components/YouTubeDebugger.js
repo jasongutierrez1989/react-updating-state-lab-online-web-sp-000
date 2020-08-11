@@ -24,7 +24,7 @@ class YouTubeDebugger extends Component{
         console.log(this.state)
         this.setState({
             settings: {
-                ...this.state.settings, 
+                ...this.state.settings,
                 ...newSetting
             }
         }, () => console.log(this.state))
@@ -36,7 +36,7 @@ class YouTubeDebugger extends Component{
                 <button className={"bitrate"} onClick={this.adjustBitrate}></button>
                 <button className={"resolution"} onClick={this.adjustResolution}></button>
             </div>
-            
+
         )
     }
 }
@@ -67,7 +67,7 @@ class YouTubeDebugger extends Component{
         console.log(this.state)
         this.setState({
             settings: {
-                ...this.state.settings, 
+                ...this.state.settings,
                 ...newSetting
             }
         }, () => console.log(this.state))
@@ -79,7 +79,7 @@ class YouTubeDebugger extends Component{
                 <button className={"bitrate"} onClick={this.adjustBitrate}></button>
                 <button className={"resolution"} onClick={this.adjustResolution}></button>
             </div>
-            
+
         )
     }
 }
