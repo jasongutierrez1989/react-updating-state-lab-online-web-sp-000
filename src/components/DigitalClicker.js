@@ -14,7 +14,7 @@ class DigitalClicker extends Component {
       timesClicked: this.state.timesClicked + 1
     })
   }
-  
+
   render(){
 
   }
